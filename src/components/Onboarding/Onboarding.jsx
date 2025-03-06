@@ -122,7 +122,7 @@ const Onboarding = () => {
               <Button
                 variant="contained"
                 color="primary"
-                href="/home"
+                href="/#/home"
                 sx={{ mt: 2 }}
               >
                 Go to Dashboard
