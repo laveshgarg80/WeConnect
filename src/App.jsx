@@ -29,9 +29,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Onboarding />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/networking" element={<Networking />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/#/home" element={<Home />} />
+          <Route path="/#/networking" element={<Networking />} />
+          <Route path="/#/profile" element={<Profile />} />
         </Routes>
       </Router>
     </ThemeProvider>
